@@ -5,3 +5,42 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+header {
+  background-image: url("../img/subtle-white-mini-waves.png");
+  background-color: #eee;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #512200;
+  margin: 0;
+  padding-top: 0.2em;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #512200;
+  opacity: 0.5;
+  color: #fff;
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+img {
+  width: 50%;
+}
