@@ -70,12 +70,15 @@ p {
   position: absolute;
   width: 100%;
   bottom: 0em;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: bold;
   float: center;
+  padding: 0em 1em 0em 1em;
+  background-image: linear-gradient(to bottom, transparent, black);
+  margin: 0;
 }
 
-.gravel {
+.rocks {
   position: relative;
   clear: both;
 }
@@ -118,11 +121,10 @@ img {
   background-color: #a8ae98;
   background-image: linear-gradient(to bottom, #6FC000, #388200);
   position: absolute;
-  bottom: -146%;
+  bottom: -100%;
   left: 13%;
   width: 25%;
   text-align: center;
-  font-weight: bold;
 }
 
 .btn-2 {
@@ -134,11 +136,10 @@ img {
   background-color: #a8ae98;
   background-image: linear-gradient(to bottom, #6FC000, #388200);
   position: absolute;
-  bottom: -146%;
+  bottom: -100%;
   right: 13%;
   width: 25%;
   text-align: center;
-  font-weight: bold;
 }
 
 .btn-3 {
@@ -150,11 +151,10 @@ img {
   background-color: #a8ae98;
   background-image: linear-gradient(to bottom, #6FC000, #388200);
   position: absolute;
-  bottom: -70%;
+  bottom: -215%;
   left: 13%;
   width: 25%;
   text-align: center;
-  font-weight: bold;
 }
 
 .btn-4 {
@@ -166,9 +166,27 @@ img {
   background-color: #a8ae98;
   background-image: linear-gradient(to bottom, #6FC000, #388200);
   position: absolute;
-  bottom: -70%;
+  bottom: -215%;
   right: 13%;
   width: 25%;
   text-align: center;
-  font-weight: bold;
+}
+
+.btn-1:hover {
+  background-color: black;
+}
+
+.all {
+  position: relative;
+  clear: both;
+}
+
+footer {
+  background-color: #a79082;
+  clear: both;
+}
+
+.graphic {
+  width: 10%;
+  margin: 0 0 0 45%;
 }
