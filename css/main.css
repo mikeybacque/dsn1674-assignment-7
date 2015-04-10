@@ -75,7 +75,36 @@ p {
   float: center;
 }
 
+.gravel {
+  position: relative;
+  clear: both;
+}
+
 img {
   width: 100%;
+  display: block;
+}
+
+.ant {
+  width: 50%;
+  float: left;
+  display: block;
+}
+
+.stag {
+  width: 50%;
+  float: right;
+  display: block;
+}
+
+.dung {
+  width: 50%;
+  float: left;
+  display: block;
+}
+
+.tortoise {
+  width: 50%;
+  float: right;
   display: block;
 }
