@@ -54,7 +54,11 @@ nav a {
 }
 
 p {
-  display: inline-block;
+  display: block;
+  background-image: url("../img/rocks.jpg");
+  color: #fff;
+  padding-top: 5em;
+  text-align: center;
 }
 
 img {
