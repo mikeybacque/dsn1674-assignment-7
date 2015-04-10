@@ -40,8 +40,16 @@ ol {
   display: block;
 }
 
+nav ol {
+  width: 100%;
+}
+
 nav li {
+  display: inline-block;
   float: left;
+  width: 25%;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav a {
