@@ -12,8 +12,10 @@ body {
 }
 
 header {
-  background-image: url("../img/subtle-white-mini-waves.png");
-  background-color: #eee;
+  background-image: url("../img/noun-59034-cc-copy.svg"), url("../img/noun-59034-cc-copy.svg"), url("../img/subtle-white-mini-waves.png");
+  background-size: 75px auto, 75px auto, 100px auto;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: left top, right top, center 10px;
 }
 
 h1 {
@@ -38,6 +40,7 @@ nav a {
   background-color: #512200;
   opacity: 0.5;
   color: #fff;
+  font-style: bold;
   padding: 0.5em 1em 0.5em 1em;
 }
 
