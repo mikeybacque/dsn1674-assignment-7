@@ -13,26 +13,35 @@ body {
 
 header {
   background-image: url("../img/noun-59034-cc-copy.svg"), url("../img/noun-59034-cc-copy.svg"), url("../img/subtle-white-mini-waves.png");
-  background-size: 75px auto, 75px auto, 100px auto;
+  background-size: 60px auto, 60px auto, 80px auto;
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: left top, right top, center 10px;
+  padding-top: 0.5em;
+  position: relative;
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
   font-size: 2.5em;
   color: #512200;
   margin: 0;
-  padding-top: 0.2em;
+  padding-bottom: 1.3em;
+}
+
+nav {
+  position: absolute;
+  bottom: 10px;
 }
 
 ol {
   list-style-type: none;
   padding: 0;
+  margin: 0;
+  display: block;
 }
 
-li {
-  display: inline-block;
+nav li {
+  float: left;
 }
 
 nav a {
@@ -40,8 +49,12 @@ nav a {
   background-color: #512200;
   opacity: 0.5;
   color: #fff;
-  font-style: bold;
+  font-weight: bold;
   padding: 0.5em 1em 0.5em 1em;
+}
+
+p {
+  display: inline-block;
 }
 
 img {
